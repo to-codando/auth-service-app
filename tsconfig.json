@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames":true,
+    "declaration": true,
+    // "declarationDir": "dist/types",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["es6", "dom", "es2020", "es2021"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "resolveJsonModule": true,
+    "outDir": "./dist", 
+    "rootDir": "./src",
+    "baseUrl": "./src", 
+    "sourceMap": true,
+    "strict": true,    "target": "esnext",
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist", "**/*.test.ts"],
+    "paths": {
+      "@/utils/*": ["utils/*"],
+      "@/services/*": ["services/*"],
+      "@/mock/*": ["mock/*"]
+    }
+  }
+}
